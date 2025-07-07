@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Log in to your account</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <main>
+            <p class="errorMessage formError" id="formError" role="alert"></p>
+            <div class="flexContainers formContainer">
+                <h1>Log In</h1>
+                <!-- action attribute removed, form validation is simulated in JS -->
+                <!-- GET method used because of client-side input processing -->
+                <form action="loginResult.html" target="_self" method="get" autocomplete="off" id="loginForm">
+                    <label for="username">USERNAME</label>
+                    <input type="text" name="username" id="username" class="inputField" autocomplete="off" autocapitalize="off" spellcheck="false" aria-describedby="usernameError">
+                    <p class="errorMessage" id="usernameError" aria-live="polite"></p>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" class="inputField" autocomplete="off" autocapitalize="off" spellcheck="false" aria-describedby="passwordError">
+                    <p class="errorMessage" id="passwordError" aria-live="polite"></p>
+                    <a href="placeholder.html" class="forgotPassword">Forgot your password?</a>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="flexContainers flexBtnContainer">
+                <p class="thirdPartyLoginDesc">Or continue with</p>
+                <div class="buttonContainers">
+                    <button class="thirdPartyLogin" aria-label="Continue with google">
+                        <span>Google</span><img src="../assets/googleLogo.webp" alt="Google Logo" width="22" height="22">
+                    </button>
+                    <button class="thirdPartyLogin" aria-label="Continue with apple">
+                        <span>Apple</span><img src="../assets/appleLogo.svg" alt="Apple Logo" width="20" height="24">
+                    </button>
+                </div>  
+            </div>
+        </main>
+        <script src="script.js"></script>
+        <!-- 
+        DISCLAIMER
+        This project is a personal project made for educational purposes only.
+        All names, logos, and brands are property of their respective owners.
+        All used names, logos, and brands do not imply any affiliation or endorsement.    
+        -->
+    </body>
+</html>
