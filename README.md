@@ -22,7 +22,7 @@ Built with several priorities in mind, namely:
 ## Installation
 Copy this repository's link: 
 ```
-https://github.com/logicalPanda2/login-page-fe.git
+https://github.com/logicalPanda2/login-page-project.git
 ```
 Then, in Git Bash, navigate to the directory you want the cloned directory to be in:
 ```
@@ -30,7 +30,7 @@ $ cd example_directory
 ```
 Then, type in the command `git clone` along with the copied link:
 ```
-$ git clone https://github.com/logicalPanda2/login-page-fe.git
+$ git clone https://github.com/logicalPanda2/login-page-project.git
 ```
 Wait until all processes are done, indicating the repository is successfully cloned.
 
@@ -45,7 +45,7 @@ Navigate to the main.html file in the `files` folder, then open it directly in y
 
 ## Project Structure
 ```
-/login_page-fe (root)
+/login_page-project (root)
     /assets (contains logos)
     /designsAndScreenshots (contains screenshots of the design and finished product)
     /files (HTML, CSS, and JS files)
