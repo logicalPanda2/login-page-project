@@ -1,0 +1,13 @@
+body {
+    flex-flow: column nowrap;
+}
+
+.message {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.message2 {
+    font-size: 0.8rem;
+}

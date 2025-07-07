@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Success</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="style2.css" type="text/css">
+    </head>
+    <body>
+        <p class="message">The login was a success!</p>
+        <p class="message2" id="userInfo"></p>
+        <script>
+            const userInfo = document.getElementById("userInfo");
+            const queryString = window.location.search;
+            const parameters = new URLSearchParams(queryString);
+            const username = parameters.get("username");
+            const password = parameters.get("password");
+            userInfo.innerHTML = `Username: ${username}, Password: ${password}`;
+        </script>
+    </body>
+</html>
