@@ -1,8 +1,13 @@
 # Responsive Login Page
-<img src="designsAndScreenshots/finishedProduct.png" alt="Finished website viewed on landscape orientation" width="773" height="350">
-<img src="designsAndScreenshots/finishedProduct2.png" alt="Finished website viewed on portrait orientation" width="171" height="350">
 
-A responsive and accesible login page. Built using HTML, CSS, and JS, along with Figma for design needs. 
+## Figma Design
+<img src="designs-and-screenshots/figmaDesign.png" alt="Figma design" width="775" height="432">
+
+## Finished Result
+<img src="designs-and-screenshots/finishedProduct.png" alt="Finished website viewed on landscape orientation" width="773" height="350">
+<img src="designs-and-screenshots/finishedProductMobileView.png" alt="Finished website viewed on portrait orientation" width="171" height="350">
+
+A responsive and accesible login page.
 
 Built with several priorities in mind, namely:
 1. Responsiveness
@@ -35,22 +40,26 @@ $ git clone https://github.com/logicalPanda2/login-page-project.git
 Wait until all processes are done, indicating the repository is successfully cloned.
 
 ## Usage
-Navigate to the main.html file in the `files` folder, then open it directly in your browser.
+Navigate to the index.html file in the `src` folder, then open it directly in your browser.
+
+To successfully log in, type in "Bomby" for the username and "Bumba123" for the password!
 
 ## Tech Stack
 - HTML5
 - CSS3 (Flexbox)
 - JavaScript (ES6)
-- Figma (Design)
 
 ## Project Structure
 ```
-/login_page-project (root)
-    /assets (contains logos)
-    /designsAndScreenshots (contains screenshots of the design and finished product)
-    /files (HTML, CSS, and JS files)
-LICENSE.txt
-README.md
+/root (login-page-project)
+    /assets -> logos
+    /designs-and-screenshots -> figma designs and screenshots of finished product
+    /src
+        loginResult.html
+        main.html
+        placeholder.html
+        script.js
+        style.css
 ```
 
 ## Author
