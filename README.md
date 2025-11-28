@@ -56,10 +56,11 @@ To successfully log in, type in "Bomby" for the username and "Bumba123" for the 
     /designs-and-screenshots -> figma designs and screenshots of finished product
     /src
         loginResult.html
-        main.html
+        index.html
         placeholder.html
         script.js
         style.css
+        style2.css
 ```
 
 ## Author

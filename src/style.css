@@ -12,9 +12,20 @@ body {
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
     margin: 0;
+}
+
+.message {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.message2 {
+    font-size: 0.8rem;
 }
 
 body * {
