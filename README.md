@@ -65,7 +65,7 @@ To successfully log in, type in "Bomby" for the username and "Bumba123" for the 
 Marcelino Romeo @logicalPanda2 (https://github.com/logicalPanda2)
 
 ## License
-This project is licensed under the <a href="LICENSE.txt">MIT</a> License.
+This project is licensed under the <a href="LICENSE.txt">MIT License</a>.
 
 ## Disclaimer
 This project is a personal project made for educational purposes only.<br>
