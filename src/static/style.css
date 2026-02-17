@@ -80,6 +80,11 @@ h1 {
     border: none;
     border-radius: var(--border-radius-small);
     margin-bottom: var(--semantic-spacing-m);
+    transition: background-color 100ms linear;
+}
+
+.input-field:focus-visible {
+    outline: 2px solid black;
 }
 
 .forgot-password-btn {
@@ -97,6 +102,7 @@ h1 {
     border-radius: var(--border-radius-small);
     border: none;
     background-color: white;
+    transition: background-color 100ms ease;
 }
 
 .third-party-login-desc {
@@ -122,6 +128,32 @@ h1 {
     border-radius: var(--border-radius-small);
     border: none;
     background-color: white;
+    transition: background-color 100ms ease;
+}
+
+.input-field:hover, .input-field:focus {
+    background-color: oklch(96.416% 0.00011 271.152);
+}
+
+.third-party-btn:hover, .submit-btn:hover {
+    background-color: oklch(93.403% 0.00011 271.152);
+}
+
+.third-party-btn:active, .submit-btn:active {
+    background-color: oklch(90.06% 0.0001 271.152);
+}
+
+.third-party-btn:focus-visible, .submit-btn:focus-visible {
+    outline: 2px solid black;
+}
+
+.forgot-password-btn:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+.forgot-password-btn:focus-visible {
+    outline: 2px solid black;
 }
 
 @media (max-width: 55rem) {
@@ -156,5 +188,3 @@ h1 {
         padding-right: 0;
     }
 }
-
-
