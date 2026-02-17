@@ -19,10 +19,8 @@ Built with several priorities in mind, namely:
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [Tech Stack](#tech-stack)
-4. [Project Structure](#project-structure)
-5. [Author](#author)
-6. [License](#license)
-7. [Disclaimer](#disclaimer)
+4. [License](#license)
+5. [Disclaimer](#disclaimer)
 
 ## Installation
 Copy this repository's link: 
@@ -31,38 +29,23 @@ https://github.com/logicalPanda2/login-page-project.git
 ```
 Then, in Git Bash, navigate to the directory you want the cloned directory to be in:
 ```
-$ cd example_directory
+cd example_directory
 ```
 Then, type in the command `git clone` along with the copied link:
 ```
-$ git clone https://github.com/logicalPanda2/login-page-project.git
+git clone https://github.com/logicalPanda2/login-page-project.git
 ```
 Wait until all processes are done, indicating the repository is successfully cloned.
 
 ## Usage
 Navigate to the index.html file in the `src` folder, then open it directly in your browser.
 
-To successfully log in, type in "Bomby" for the username and "Bumba123" for the password!
+Log in with the following data:
+1. Username: **user0**
+2. Password: **testpw123**
 
 ## Tech Stack
-- HTML5
-- CSS3 (Flexbox)
-- JavaScript (ES6)
-
-## Project Structure
-```
-/root (login-page-project)
-    /assets -> logos
-    /designs-and-screenshots -> figma designs and screenshots of finished product
-    /src
-        /static -> css and js files
-        index.html
-        loginResult.html
-        placeholder.html
-```
-
-## Author
-Marcelino Romeo @logicalPanda2 (https://github.com/logicalPanda2)
+Built with HTML, CSS, and ES6 JavaScript.
 
 ## License
 This project is licensed under the <a href="LICENSE.txt">MIT License</a>.
