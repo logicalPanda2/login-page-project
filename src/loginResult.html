@@ -9,14 +9,14 @@
     </head>
     <body>
         <p class="message">The login was a success!</p>
-        <p class="message2" id="userInfo"></p>
+        <p class="message2" id="user-info"></p>
         <script>
-            const userInfo = document.getElementById("userInfo");
+            const userInfo = document.getElementById("user-info");
             const queryString = window.location.search;
             const parameters = new URLSearchParams(queryString);
             const username = parameters.get("username");
             const password = parameters.get("password");
-            userInfo.innerHTML = `Username: ${username}, Password: ${password}`;
+            userInfo.innerHTML = `Username: ${username}, password: ${password}`;
         </script>
     </body>
 </html>
