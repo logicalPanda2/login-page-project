@@ -1,11 +1,11 @@
 # Responsive Login Page
 
 ## Figma Design
-<img src="designs-and-screenshots/figmaDesign.png" alt="Figma design" width="775" height="432">
+<img src="./designs-and-screenshots/figmaDesign.png" alt="Figma design" width="775" height="432">
 
 ## Finished Result
-<img src="designs-and-screenshots/finishedProduct.png" alt="Finished website viewed on landscape orientation" width="773" height="350">
-<img src="designs-and-screenshots/finishedProductMobileView.png" alt="Finished website viewed on portrait orientation" width="171" height="350">
+<img src="./designs-and-screenshots/desktop-view.png" alt="Finished website viewed on landscape orientation" width="773" height="350">
+<img src="./designs-and-screenshots/mobile-view.png" alt="Finished website viewed on portrait orientation" width="171" height="350">
 
 A responsive and accesible login page.
 
