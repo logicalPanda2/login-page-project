@@ -10,7 +10,8 @@
     --decorative-spacing-s: 8px;
     --decorative-spacing-m: 12px;
     --decorative-spacing-l: 16px;
-    --decorative-spacing-xl: 24px;
+    --decorative-spacing-xl: 20px;
+    --decorative-spacing-xxl: 24px;
     --semantic-spacing-s: 0.5rem;
     --semantic-spacing-m: 1rem;
     --semantic-spacing-l: 1.5rem;
@@ -19,6 +20,7 @@
     --border-radius-std: 12px;
     --font-thin: 400;
     --font-s: 0.875rem;
+    --font-ml: 1.5rem;
 }
 
 body {
@@ -45,7 +47,7 @@ main {
     min-height: 18rem;
     background-color: var(--bg-glass);
     backdrop-filter: blur(4px);
-    padding: var(--decorative-spacing-xl);
+    padding: var(--decorative-spacing-xxl);
     border: var(--border-glass);
     border-radius: var(--border-radius-std) 0 var(--border-radius-std) 0;
     display: flex;
@@ -58,7 +60,7 @@ h1 {
     margin-bottom: var(--semantic-spacing-l);
 }
 
-.form-wrapper {
+.col-wrapper {
     width: 50%;
 }
 
@@ -81,8 +83,8 @@ h1 {
 
 .forgot-password-btn {
     position: absolute;
-    left: var(--decorative-spacing-xl);
-    bottom: var(--decorative-spacing-xl);
+    left: var(--decorative-spacing-xxl);
+    bottom: var(--decorative-spacing-xxl);
     color: var(--text-secondary);
     display: inline-block;
     font-size: var(--font-s);
@@ -90,7 +92,32 @@ h1 {
 
 .submit-btn {
     margin-top: var(--semantic-spacing-s);
-    padding: var(--decorative-spacing-s) var(--decorative-spacing-xl);
+    padding: var(--decorative-spacing-s) var(--decorative-spacing-xxl);
+    border-radius: var(--border-radius-small);
+    border: none;
+    background-color: white;
+}
+
+.third-party-login-desc {
+    margin-top: var(--semantic-spacing-l);
+    font-size: var(--font-ml);
+    text-align: center;
+}
+
+.third-party-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: var(--decorative-spacing-m);
+    padding: var(--decorative-spacing-xxl);
+    gap: var(--semantic-spacing-m);
+}
+
+.third-party-btn {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--decorative-spacing-s) var(--decorative-spacing-l);
     border-radius: var(--border-radius-small);
     border: none;
     background-color: white;
