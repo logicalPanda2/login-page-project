@@ -14,7 +14,9 @@
     --semantic-spacing-m: 1rem;
     --semantic-spacing-l: 1.5rem;
     --semantic-spacing-xl: 2rem;
+    --border-radius-small: 4px;
     --border-radius-std: 12px;
+    --font-thin: 400;
 }
 
 body {
@@ -36,11 +38,40 @@ h1, p {
 }
 
 main {
-    width: 75%;
-    max-width: 800px;
+    width: 65%;
+    max-width: 50rem;
+    min-height: 18rem;
     background-color: var(--bg-glass);
     backdrop-filter: blur(4px);
     padding: var(--decorative-spacing-xl);
     border: var(--border-glass);
     border-radius: var(--border-radius-std) 0 var(--border-radius-std) 0;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+h1 {
+    font-weight: var(--font-thin);
+    margin-bottom: var(--semantic-spacing-l);
+}
+
+.form-wrapper {
+    width: 50%;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.text-label {
+    display: inline-block;
+    margin-bottom: var(--semantic-spacing-s);
+}
+
+.input-field {
+    padding: var(--decorative-spacing-s);
+    border: none;
+    border-radius: var(--border-radius-small);
+    margin-bottom: var(--semantic-spacing-m);
 }

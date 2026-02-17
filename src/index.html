@@ -15,32 +15,33 @@
                     target="_self" 
                     method="get" 
                     autocomplete="off" 
-                    id="loginForm" 
-                    class="login-form"
+                    id="loginForm"
                 >
-                    <label for="username">USERNAME</label>
-                    <input 
-                        type="text" 
-                        name="username" 
-                        id="username" 
-                        class="input-field" 
-                        autocomplete="off" 
-                        autocapitalize="off" 
-                        spellcheck="false" 
-                        aria-describedby="usernameError"
-                    >
-                    <label for="password">PASSWORD</label>
-                    <input 
-                        type="password" 
-                        name="password" 
-                        id="password" 
-                        class="input-field" 
-                        autocomplete="off" 
-                        autocapitalize="off" 
-                        spellcheck="false" 
-                        aria-describedby="passwordError"
-                    >
-                    <a href="placeholder.html" class="forgotPassword">Forgot your password?</a>
+                    <div class="input-wrapper">
+                        <label for="username" class="text-label">USERNAME</label>
+                        <input 
+                            type="text" 
+                            name="username" 
+                            id="username" 
+                            class="input-field" 
+                            autocomplete="off" 
+                            autocapitalize="off" 
+                            spellcheck="false" 
+                        >
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="password" class="text-label">PASSWORD</label>
+                        <input 
+                            type="password" 
+                            name="password" 
+                            id="password" 
+                            class="input-field" 
+                            autocomplete="off" 
+                            autocapitalize="off" 
+                            spellcheck="false"
+                        >
+                    </div>
+                    <a href="placeholder.html" class="forgot-password-btn">Forgot your password?</a>
                     <input type="submit" value="Submit" class="submit-btn">
                 </form>
             </div>
