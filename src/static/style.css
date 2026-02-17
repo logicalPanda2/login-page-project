@@ -40,7 +40,7 @@ h1, p {
 }
 
 main {
-    width: 65%;
+    width: 60%;
     max-width: 50rem;
     min-height: 18rem;
     background-color: var(--bg-glass);
@@ -86,4 +86,12 @@ h1 {
     color: var(--text-secondary);
     display: inline-block;
     font-size: var(--font-s);
+}
+
+.submit-btn {
+    margin-top: var(--semantic-spacing-s);
+    padding: var(--decorative-spacing-s) var(--decorative-spacing-xl);
+    border-radius: var(--border-radius-small);
+    border: none;
+    background-color: white;
 }
