@@ -67,6 +67,7 @@ h1 {
 .input-wrapper {
     display: flex;
     flex-flow: column nowrap;
+    padding-right: var(--decorative-spacing-xl);
 }
 
 .text-label {
@@ -133,6 +134,7 @@ h1 {
     main {
         width: 60%;
         flex-flow: column nowrap;
+        margin: 0 var(--decorative-spacing-m);
     }
     
     .third-party-wrapper {
@@ -148,6 +150,10 @@ h1 {
 
     .col-wrapper {
         width: 100%;
+    }
+
+    .input-wrapper {
+        padding-right: 0;
     }
 }
 
