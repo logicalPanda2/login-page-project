@@ -16,6 +16,7 @@
                     method="get" 
                     autocomplete="off" 
                     id="loginForm"
+                    aria-describedby="formError"
                 >
                     <div class="input-wrapper">
                         <label for="username" class="text-label">USERNAME</label>
@@ -48,6 +49,7 @@
                     <input type="submit" value="Submit" class="submit-btn">
                     <a href="placeholder.html" class="forgot-password-btn">Forgot your password?</a>
                 </form>
+                <span class="error form-error" id="formError" role="alert"></span>
             </div>
             <div class="col-wrapper">
                 <p class="third-party-login-desc">Or continue with</p>

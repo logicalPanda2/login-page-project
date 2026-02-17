@@ -80,7 +80,6 @@ h1 {
     border: none;
     border-radius: var(--border-radius-small);
     transition: background-color 100ms linear;
-    margin-bottom: var(--semantic-spacing-s);
 }
 
 .input-field:focus-visible {
@@ -134,7 +133,13 @@ h1 {
 .error {
     font-size: var(--font-s);
     color: var(--alert-text-color);
-    margin-bottom: var(--semantic-spacing-s);
+    margin: var(--semantic-spacing-s) 0 var(--semantic-spacing-m) 0;
+}
+
+.form-error {
+    display: inline-block;
+    margin-top: var(--semantic-spacing-m);
+    margin-bottom: 0;
 }
 
 .input-field:hover, .input-field:focus {
