@@ -122,3 +122,33 @@ h1 {
     border: none;
     background-color: white;
 }
+
+@media (max-width: 55rem) {
+    main {
+        width: 75%;
+    }
+}
+
+@media (max-width: 40rem) {
+    main {
+        width: 60%;
+        flex-flow: column nowrap;
+    }
+    
+    .third-party-wrapper {
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: var(--semantic-spacing-xl);
+    }
+
+    .third-party-login-desc {
+        text-align: left;
+        margin-bottom: var(--semantic-spacing-m);
+    }
+
+    .col-wrapper {
+        width: 100%;
+    }
+}
+
+
