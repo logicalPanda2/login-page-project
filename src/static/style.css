@@ -79,8 +79,8 @@ h1 {
     padding: var(--decorative-spacing-s);
     border: none;
     border-radius: var(--border-radius-small);
-    margin-bottom: var(--semantic-spacing-m);
     transition: background-color 100ms linear;
+    margin-bottom: var(--semantic-spacing-s);
 }
 
 .input-field:focus-visible {
@@ -89,7 +89,7 @@ h1 {
 
 .forgot-password-btn {
     position: absolute;
-    left: var(--decorative-spacing-xxl);
+    right: var(--decorative-spacing-xxl);
     bottom: var(--decorative-spacing-xxl);
     color: var(--text-secondary);
     display: inline-block;
@@ -129,6 +129,12 @@ h1 {
     border: none;
     background-color: white;
     transition: background-color 100ms ease;
+}
+
+.error {
+    font-size: var(--font-s);
+    color: var(--alert-text-color);
+    margin-bottom: var(--semantic-spacing-s);
 }
 
 .input-field:hover, .input-field:focus {

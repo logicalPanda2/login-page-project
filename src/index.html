@@ -26,8 +26,10 @@
                             class="input-field" 
                             autocomplete="off" 
                             autocapitalize="off" 
-                            spellcheck="false" 
+                            spellcheck="false"
+                            aria-describedby="usernameError"
                         >
+                        <span class="error" id="usernameError"></span>
                     </div>
                     <div class="input-wrapper">
                         <label for="password" class="text-label">PASSWORD</label>
@@ -39,7 +41,9 @@
                             autocomplete="off" 
                             autocapitalize="off" 
                             spellcheck="false"
+                            aria-describedby="passwordError"
                         >
+                        <span class="error" id="passwordError"></span>
                     </div>
                     <input type="submit" value="Submit" class="submit-btn">
                     <a href="placeholder.html" class="forgot-password-btn">Forgot your password?</a>
